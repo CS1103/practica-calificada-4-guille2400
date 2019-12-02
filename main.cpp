@@ -38,7 +38,7 @@ int main()
     unsigned int w;
     unsigned int h;
     auto image = decode("../in.png", w, h);
-    //Idea de los 4 threads
+    //Idea de los 4 threads:
     //thread t1[4];
     //for(int i = 1; i<5;++i){
     //    t1[i] = thread([&image,&w,&h]{for(int i = 1; i<5;++i) blue_Filter("../Blue1_Filter.png",image,w*i/4,h*i/4);});}
